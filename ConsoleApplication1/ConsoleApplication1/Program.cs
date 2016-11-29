@@ -19,5 +19,10 @@ namespace ConsoleApplication1
         {
             return a - b;
         }
+
+        int Multiply(int x, int y)
+        {
+            return x * y;
+        }
     }
 }

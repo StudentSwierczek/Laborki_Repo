@@ -13,6 +13,8 @@ namespace ConsoleApplication1
             Console.WriteLine("Hello World!");
         }
 
+        static int Add(int a, int b) => a + b;
+
         public float odejmowanie(float a, float b)
         {
             return a - b;

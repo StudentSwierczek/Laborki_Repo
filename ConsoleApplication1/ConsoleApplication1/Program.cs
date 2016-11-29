@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    class Program
+    public class Program
     {
         /// <summary>
         /// 
@@ -17,7 +17,7 @@ namespace ConsoleApplication1
             Console.WriteLine("Hello World!");
         }
 
-        static int Add(int a, int b) => a + b;
+        public static int Add(int a, int b) => a + b;
 
         public float Substract(float a, float b) => a - b;
 

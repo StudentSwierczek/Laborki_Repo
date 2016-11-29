@@ -12,5 +12,10 @@ namespace ConsoleApplication1
         {
             Console.WirteLine("Hello World!");
         }
+
+        int Multiply(int x, int y)
+        {
+            return x * y;
+        }
     }
 }

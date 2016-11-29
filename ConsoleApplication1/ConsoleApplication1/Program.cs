@@ -12,5 +12,10 @@ namespace ConsoleApplication1
         {
             Console.WriteLine("Hello World!");
         }
+
+        public float odejmowanie(float a, float b)
+        {
+            return a - b;
+        }
     }
 }

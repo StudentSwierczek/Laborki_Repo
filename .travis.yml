@@ -5,4 +5,3 @@ install:
 - nuget restore ./ConsoleApplication1/ConsoleApplication1.sln
 script:
 - xbuild /p:Configuration=Release ./ConsoleApplication1/ConsoleApplication1.sln
-- mono ./testrunner/NUnit.Runners.3.5.0/tools/nunit-console.exe ./ConsoleApplication1/Tests/Release/Tests.dll

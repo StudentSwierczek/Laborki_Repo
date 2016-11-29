@@ -12,5 +12,7 @@ namespace ConsoleApplication1
         {
             Console.WriteLine("Hello World!");
         }
+
+        static int Add(int a, int b) => a + b;
     }
 }

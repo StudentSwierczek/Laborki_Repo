@@ -15,10 +15,7 @@ namespace ConsoleApplication1
 
         static int Add(int a, int b) => a + b;
 
-        public float odejmowanie(float a, float b)
-        {
-            return a - b;
-        }
+        public float Substract(float a, float b) => a - b;
 
         int Multiply(int x, int y) => x * y;
     }
